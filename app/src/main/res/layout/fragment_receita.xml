@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceitasFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receita"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Omelete de forno com peixinho da horta, ora pro-nobis e abobrinha"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 ovos batidos;50 g de abobrinha italiana ralada;
+10 g de cebola picada em cubos;4 folhas de peixinho picadas;1 colher de sopa de salsinha picadinha;
+2 colheres de sopa de farinha de trigo; 4 folhas de ora-pro-nobis picada fina;2 colheres de sopa de azeite;
+Sal à gosto."
+            android:textSize="20sp"
+             />
+    </LinearLayout>
+</FrameLayout>
